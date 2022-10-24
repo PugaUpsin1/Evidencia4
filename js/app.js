@@ -13,3 +13,17 @@ function promedio() {
     par1.innerHTML = prom;
     console.log(prom)
     }
+
+    function pares(){
+        let arreglo2 = [];
+        let par2 = document.getElementById('par2');
+        for(let i = 0 ; i<20 ; i++){
+            arreglo2[i]= parseInt(prompt("Ingresa un Numero: "));
+        }
+        let paresarray = [];
+        for(let i = 0 ; i<arreglo2.length ; i++){
+            let num = parseInt(arreglo2[i]);
+            if(num % 2 === 0){
+                paresarray.push(num);
+            }
+        }
