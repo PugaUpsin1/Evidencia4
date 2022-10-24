@@ -27,4 +27,21 @@ function promedio() {
                 paresarray.push(num);
             }
         }
+        let res = paresarray;
+        par2.innerHTML = res;
+        console.log(res)
     }
+    function orden(){
+        let arreglo3 = [];
+        let par3 = document.getElementById('par3');
+        for(let i = 0 ; i<5 ; i++){
+            arreglo3[i]= parseInt(prompt("Ingresa un Numero: "));
+        }
+        function comparar(a,b){return b - a}
+    
+        let res = arreglo3.sort(comparar);
+        par3.innerHTML = res;
+        console.log(res)
+        }
+    
+    

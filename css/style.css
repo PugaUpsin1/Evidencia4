@@ -40,7 +40,11 @@
     margin-left: 20px;
 }
 .cuadro3-res {
-    display: flex;
+    display:inline-block;
+    flex-direction: column;
+}
+.cuadro3-res h4 {
+    width: 100%;
 }
 .cuadro3-res p {
     color: red;
