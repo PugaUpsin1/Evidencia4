@@ -1,0 +1,55 @@
+.cuadro1{
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+.cuadro1-res {
+    display: flex;
+    margin-left: 20px;
+}
+.cuadro1-res p {
+    color: red;
+    size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.cuadro2{
+    background-color:aqua;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+.cuadro2-res {
+    display: flex;
+}
+.cuadro2-res p {
+    color: red;
+    size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.cuadro3{
+    background-color:darkseagreen;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+.cuadro3-res {
+    display: flex;
+}
+.cuadro3-res p {
+    color: red;
+    size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.contenido {
+    display: flex;
+}
