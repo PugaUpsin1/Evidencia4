@@ -11,7 +11,7 @@ function promedio() {
     }
     let prom = sum / 5;
     par1.innerHTML = prom;
-    console.log(prom)
+    console.log(prom);
     }
 
     function pares(){
@@ -27,3 +27,4 @@ function promedio() {
                 paresarray.push(num);
             }
         }
+    }
