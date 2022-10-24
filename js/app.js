@@ -34,7 +34,7 @@ function promedio() {
     function orden(){
         let arreglo3 = [];
         let par3 = document.getElementById('par3');
-        for(let i = 0 ; i<5 ; i++){
+        for(let i = 0 ; i<20 ; i++){
             arreglo3[i]= parseInt(prompt("Ingresa un Numero: "));
         }
         function comparar(a,b){return b - a}
